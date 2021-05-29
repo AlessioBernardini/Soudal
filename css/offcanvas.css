@@ -8,7 +8,7 @@ body {
     position: fixed;
     top:0;
     right: 100%;
-    width: 100%;
+    width: 80%;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
@@ -22,6 +22,7 @@ body {
     visibility: visible;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+    padding-bottom: 15px;
   }
 }
 
@@ -69,3 +70,11 @@ body {
 .lh-100 { line-height: 1; }
 .lh-125 { line-height: 1.25; }
 .lh-150 { line-height: 1.5; }
+
+.close {
+    opacity: 1;
+    position: absolute;
+    right: 23px;
+    top: 15px;
+    font-size: 1.8rem;
+}
