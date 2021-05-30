@@ -17,6 +17,7 @@ body {
     transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out;
     transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    padding-bottom: 15px;
   }
   .offcanvas-collapse.open {
     visibility: visible;

@@ -1,10 +1,32 @@
+@font-face {
+    font-family: 'SignPainter';
+    src: url('../fonts/SignPainter-HouseScript.woff2') format('woff2'),
+         url('../fonts/SignPainter-HouseScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.sign{
+	font-family: 'SignPainter';
+    font-weight: normal;
+    font-style: normal;
+}
+.solomobile{
+	display:none;
+}
 html, body {
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+p, .lead{
+	font-size: 1.2rem;
 }
 header.home {
-  height: 700px;
+  height: 675px;
   background: url(../img/header.jpg) top center no-repeat;
   background-size: cover;
+}
+section{
+	margin: 120px 0;
 }
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.5) !important;
@@ -12,11 +34,11 @@ header.home {
 .navbar-dark .navbar-nav .nav-link{
 	color:#FFF;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-	color:#c20c19;
+.navbar-dark .navbar-nav .nav-link:hover, .red{
+	color: #e61919;
 }
 .btn-light:not(:disabled):not(.disabled).active {
-    color: #c20c19;
+    color: #e61919;
     background-color: #FFF;
     border-color: #FFF;
 }
@@ -25,4 +47,56 @@ header.home {
 }
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.title{
+	font-size: 9rem;
+}
+.btn-group-lg > .btn, .btn-lg {
+    padding: .6rem 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.btn-primary {
+    color: #fff!important;
+    background-color: #e61919!important;
+    border: #e61919!important;
+}
+.btn-primary:hover {
+    color: #fff!important;
+    background-color: #cc0000!important;
+    border-color: #cc0000!important;
+}
+.line {
+    border-bottom: 1px solid #000;
+    position: relative;
+    top: -23px;
+    z-index: -1;
+}
+
+.line:before {
+    content: "";
+    width: 40%;
+    height: 30px;
+    background-color: #FFF;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    z-index: -1;
+    left: 30%;
+}
+.row{
+	margin: 30px -15px;
+}
+.footer {
+  background-color: #f5f5f5;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.footer a, .footer a:hover{
+	color:#000;
+	text-decoration: underline;
+	font-weight: 500;
 }
