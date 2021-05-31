@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Iniziativa da Giro a Giro - Acquista almeno 60€ di sigillanti o di schiume Soudal e richiedi un buono sconto da 30€...">
+  	<meta name="keywords" content="Soudal, giro, sigillanti, schiume, sconto">
+  	<title>Soudal - partecipa</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  	<!-- Custom CSS -->
+  	<link rel="stylesheet" href="css/style.css" >
+  	<link rel="stylesheet" href="css/mobile.css" >
+ 	<link rel="stylesheet" href="css/offcanvas.css" >
+  	<!-- Google fonts -->
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+
+	<header class="container-fluid page">
+		<nav class="container navbar navbar-expand-lg navbar-dark pt-4">
+			<div class="d-flex flex-grow-1">
+				<button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas"><span class="navbar-toggler-icon dark"></span></button>
+				<a class="navbar-brand d-none d-lg-inline-block" href="index.html"><img class="shadow" src="img/logo.jpg" alt="logo"></a> 
+				<a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="index.html"><img class="shadow" src="img/logo-mobile.jpg" alt="logo mobile"></a>
+			</div>
+			<div class="navbar-collapse offcanvas-collapse flex-grow-1 text-right">
+			<a class="text-left d-block d-lg-none pt-4 pl-2 pb-4" href="index.html"><img class="shadow" src="img/logo-mobile.jpg" alt="logo offcanvas"></a>
+			<button type="button" class="close navbar-toggler d-block d-lg-none" aria-label="Close" data-toggle="offcanvas"><span aria-hidden="true">&times;</span></button>
+				<ul class="navbar-nav ml-auto flex-nowrap">
+					<li class="nav-item"><a href="index.html" class="nav-link m-2 menu-item btn btn-outline-light">Home</a></li>
+					<li class="nav-item"><a href="partecipa.html" class="nav-link m-2 menu-item btn btn-light active">Partecipa</a></li>
+					<li class="nav-item"><a href="#" class="nav-link m-2 menu-item btn btn-outline-light">Come partecipare</a></li>
+					<li class="nav-item"><a href="#" class="nav-link m-2 menu-item btn btn-outline-light">Login</a></li>
+					<li class="nav-item"><a href="#" class="nav-link m-2 menu-item btn btn-outline-light">Prodotti</a></li>
+					<li class="nav-item"><a href="#" class="nav-link m-2 menu-item btn btn-outline-light">Negozi</a></li>
+					<li class="nav-item"><a href="#" class="nav-link m-2 menu-item btn btn-outline-light">Termini e Condizioni</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main role="main" class="container">
+		<h1 class="sign title text-center page">Iniziativa<br class="solomobile"> <span class="white ml-5">da Giro a Giro</span></h1>
+		<section class="page">
+			<p class="font-weight-bold text-center">Acquista almeno 60€ di sigillanti o di schiume Soudal e richiedi un buono sconto da 30€*<br>
+			<span class="lead">Ottenuto il buono non fermarti: continua ad acquistare sigillanti o schiume Soudal.
+			<br class="solodesktop">Puoi richiedere un buono sconto ogni 100€ di spesa**</span><br></p>
+
+			<form>
+				<div class="card">
+					<div class="card-header text-center"><h3>Inserisci i tuoi dati</h3> <br class="solomobile">I campi contrassegnati da * sono obbligatori</div>
+					<div class="card-body">
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label for="inputTipoUtente">Tipo utente*</label>
+								<select id="inputTipoUtente" class="form-control custom-select" required>
+									<option selected>[privato/professionista]</option>
+									<option>Privato</option>
+									<option>Professionista</option>
+								</select>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputNome">Nome*</label>
+								<input type="text" class="form-control" id="inputNome" required>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputCognome">Cognome*</label>
+								<input type="text" class="form-control" id="inputCognome" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputRagioneSociale">Ragione sociale*</label>
+								<input type="text" class="form-control" id="inputRagioneSociale" required>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputIva">Partita IVA*</label>
+								<input type="text" class="form-control" id="inputIva" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputDataNascita">Data di nascita*</label>
+								<div class="form-row">
+									<select id="inputDataNascitagg" class="form-control custom-select col-md-3 mr-3" required>
+										<option selected>[gg]</option>
+										<option>1</option><option>2</option><option>3</option><option>ecc...</option>
+									</select>
+									<select id="inputDataNascitamm" class="form-control custom-select col-md-3 mr-3" required>
+										<option selected>[mm]</option>
+										<option>1</option><option>2</option><option>3</option><option>ecc...</option>
+									</select>
+									<select id="inputDataNascitaAAAA" class="form-control custom-select col-md-5" required>
+										<option selected>[AAAA]</option>
+										<option>1950</option><option>1951</option><option>1952</option><option>ecc...</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputCodiceFiscale">Codice fiscale*</label>
+								<input type="text" class="form-control" id="inputCodiceFiscale" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label for="inputIndirizzo">Indirizzo*</label>
+								<input type="text" class="form-control" id="inputIndirizzo" required>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputCivico">N. Civico*</label>
+								<input type="text" class="form-control" id="inputCivico" required>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputCAP">CAP*</label>
+								<input type="number" class="form-control" id="inputCAP" required>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label for="inputCitta">Città*</label>
+								<input type="text" class="form-control" id="inputCitta" required>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputTipo">Provincia*</label>
+								<select id="inputTipo" class="form-control custom-select" required>
+									<option selected>[provincia]</option>
+									<option>Provincia 1</option><option>Provincia 2</option><option>ecc..</option>
+								</select>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputTelefono">Telefono</label>
+								<input type="text" class="form-control" id="inputTelefono">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputEmail">Email* <span class="small">(per la registrazione e i successivi inserimenti)</span></label>
+								<input type="email" class="form-control" id="inputEmail" required>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputPassword">Password* <span class="small">(per la registrazione e i successivi inserimenti)</span></label>
+								<input type="password" class="form-control" id="inputPassword" required>
+							</div>
+						</div>
+					</div><!-- End card body-->
+				</div><!-- End card-->
+				
+				<div class="card">
+					<div class="card-header text-center"><h3>Dati del documento di acquisto</h3> <br class="solomobile">I campi contrassegnati da * sono obbligatori</div>
+					<div class="card-body">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputTipoDoc">Tipo documento*</label>
+								<select id="inputTipoDoc" class="form-control custom-select" required>
+									<option selected>[scontrino/fattura]</option>
+									<option>Scontrino</option>
+									<option>Fattura</option>
+								</select>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputDataEmissione">Data emissione*</label>
+								<div class="form-row">
+									<select id="inputDataEmissionegg" class="form-control custom-select col-md-2 mr-2" required>
+										<option selected>[gg]</option>
+										<option>1</option><option>2</option><option>3</option><option>ecc...</option>
+									</select>
+									<select id="inputDataEmissionemm" class="form-control custom-select col-md-2 mr-2" required>
+										<option selected>[mm]</option>
+										<option>1</option><option>2</option><option>3</option><option>ecc...</option>
+									</select>
+									<select id="inputDataEmissioneAAAA" class="form-control custom-select col-md-3 mr-2" required>
+										<option selected>[AAAA]</option>
+										<option>1950</option><option>1951</option><option>1952</option><option>ecc...</option>
+									</select>
+									<select id="inputDataEmissionehh" class="form-control custom-select col-md-2 mr-2" required disabled>
+										<option selected>[hh]</option>
+										<option>00</option><option>01</option><option>02</option><option>ecc...</option>
+									</select>
+									<select id="inputDataEmissionemin" class="form-control custom-select col-md-2" required disabled>
+										<option selected>[min]</option>
+										<option>00</option><option>01</option><option>02</option><option>ecc...</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputNumeroDoc">N. documento*</label>
+								<input type="text" class="form-control" id="inputNumeroDoc" required>
+								<p class="small">Si precisa che il numero del documento d’acquisto (slitamente indicato come <br class="solodesktop">“Documento n.“) è quello che identifica fiscalmente tale documento</p>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputTotDoc">Importo totale (compresi decimali)*</label>
+								<div class="form-row">
+									<input type="number" class="form-control col-md-6 mr-3" id="inputTotDoc" required>
+									<span class="mr-3">,</span>
+									<input type="number" class="form-control col-md-5" id="inputTotDocDecimal" required>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-3 mr-4">
+								<label>Carica foto/scansione FRONTE del documento d’acquisto parlante*</label>
+								<input type="file" class="form-control-file custom-file-input" id="inputFileFronte">
+								<label for="inputFileFronte" class="custom-file-label">Carica file...</label>
+								<p class="small">NB: caricare un documento chiaro e leggebile. Dimensione massima 4MB, formati di file supportati: .PDF o .jpg</p>
+							</div>
+							<div class="form-group col-md-3 mr-5">
+								<label>Carica foto/scansione RETRO del documento d’acquisto parlante*</label>
+								<input type="file" class="form-control-file custom-file-input" id="inputFileRetro">
+								<label for="inputFileRetro" class="custom-file-label">Carica file...</label>
+								<p class="small">NB: caricare un documento chiaro e leggebile. Dimensione massima 4MB, formati di file supportati: .PDF o .jpg</p>
+							</div>
+							<div class="form-group col-md-2 ml-2 mr-2">
+							<label>Tipologia di prodotto acquistato</label><br>
+								<input type="checkbox" id="sigillanti">
+  								<label for="sigillanti">Sigillanti</label><br>
+  								<input type="checkbox" id="schiume">
+  								<label for="schiume">Schiume</label>
+							</div>
+							<div class="form-group col-md-3">
+								<label for="inputImportoSpeso">Importo speso</label>
+								<input type="number" class="form-control" id="inputImportoSpeso" disabled>
+							</div>
+						</div>
+					</div><!-- End card body-->
+				</div><!-- End card-->
+				
+				<div class="form-row mt-5">
+					<div class="form-group col-md-8">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="OKTermini">
+							<label class="form-check-label" for="OKTermini">Ho letto e accetto il <a href="#">Termini e Condizioni</a> dell’iniziativa</label><br>
+							<input class="form-check-input" type="checkbox" id="OKTrattamento">
+							<label class="form-check-label" for="OKTrattamento">Autorizzo al <a href="#">Trattamento dei miei dati personali</a> ai sensi dell’art. 13 del regolamento UE n.2016/679 (GDPR), per finalità relative alla partecipazione all’iniziativa.</label>
+						</div>
+					</div>
+					<div class="form-group col-md-4 text-right">
+						<button type="submit" class="btn btn-primary btn-lg mt-0">INVIA</button>
+					</div>
+				</div>
+			</form>
+
+		</section>
+		
+	</main>
+
+	<footer class="footer mt-auto py-3 text-center">
+		<div class="container">
+			Attività “INIZIATIVA DA GIRO A GIRO” valida dal 21/06/21 al 31/10/21 nei punti vendita aderenti che espongono l’apposito materiale pubblicitario. Conserva il Documento d’Acquisto (unico scontrino/fattura)
+			e richiedi il buono <a href="#">qui</a> entro il 31/10/2021. Per tutte le info leggi il <a href="#">Termini e Condizioni</a>. *Puoi effettuare un’unica richiesta per tutto il periodo. Il carnet è composto da 3 buoni da 10€ ciascuno. **Verrà considerata la spesa effettuata nel periodo di 90 gg. 
+			<br class="solomobile"><a href="#">PRIVACY POLICY</a> – <a href="#">COOKIE POLICY</a>
+		</div>
+	</footer>
+
+	<!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  	<!-- Custom JS -->
+  	<script src="js/offcanvas.js"></script>
+  </body>
+</html>

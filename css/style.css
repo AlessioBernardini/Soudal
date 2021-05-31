@@ -25,8 +25,16 @@ header.home {
   background: url(../img/header.jpg) top center no-repeat;
   background-size: cover;
 }
+header.page {
+  height: 520px;
+  background: url(../img/header-page.jpg) top center no-repeat;
+  background-size: cover;
+}
 section{
 	margin: 120px 0;
+}
+section.page{
+	margin-top: 200px;
 }
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.5) !important;
@@ -35,21 +43,28 @@ section{
 	color:#FFF;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .red{
-	color: #e61919;
+	color: #c20c19;
 }
 .btn-light:not(:disabled):not(.disabled).active {
-    color: #e61919;
+    color: #c20c19;
     background-color: #FFF;
     border-color: #FFF;
 }
-.navbar-dark .navbar-toggler {
+.navbar-dark .navbar-toggler, .white {
     color: #FFF;
 }
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+.navbar-dark .navbar-toggler-icon.dark {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 .title{
 	font-size: 9rem;
+}
+.title.page{
+	margin-top: -310px;
+	font-size: 8.5rem;
 }
 .btn-group-lg > .btn, .btn-lg {
     padding: .6rem 2rem;
@@ -59,10 +74,17 @@ section{
     font-weight: 700;
     margin-top: 30px;
 }
+form .btn-lg {
+    padding: .5rem 1rem;
+	font-size: 1.25rem;
+	font-weight: normal;
+	line-height: 1.5;
+	border-radius: .3rem;
+}
 .btn-primary {
     color: #fff!important;
-    background-color: #e61919!important;
-    border: #e61919!important;
+    background-color: #c20c19!important;
+    border: #c20c19!important;
 }
 .btn-primary:hover {
     color: #fff!important;
@@ -95,8 +117,20 @@ section{
   font-weight: 100;
   font-size: 0.8rem;
 }
-.footer a, .footer a:hover{
+.footer a, .footer a:hover, form a, form a:hover{
 	color:#000;
 	text-decoration: underline;
 	font-weight: 500;
+}
+form .card{
+	margin-top:60px;
+}
+.card-header h3 {
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+.custom-file-label {
+    top: 50px;    
 }
