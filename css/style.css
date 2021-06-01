@@ -134,3 +134,21 @@ form .card{
 .custom-file-label {
     top: 50px;    
 }
+.modal-dialog {
+    max-width: 350px;
+}
+.modal-title {
+    line-height: 1.2;
+    width: 100%;
+}
+.modal-title small{
+    font-size:1rem;
+}
+.modal-footer .form-check{
+	left: -140px;
+}
+.input-group-append{
+    justify-content: end;
+    margin-top: -38px;
+    height: 38px;
+}

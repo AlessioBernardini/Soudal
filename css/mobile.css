@@ -60,12 +60,15 @@ h3 {
 form .card{
 	margin-top:30px;
 }
-form .mr-2, form .mr-3{
+form .mr-2, form .mr-3, h2.mb-5{
 	margin-right:0!important;
-	margin-bottom: 15px;
+	margin-bottom: 15px!important;
 }
 .card-header {
     font-size: 0.85rem;
+}
+.display-4{
+	font-size:2rem;
 }
 	
 	
