@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Iniziativa da Giro a Giro - Acquista almeno 60€ di sigillanti o di schiume Soudal e richiedi un buono sconto da 30€...">
   	<meta name="keywords" content="Soudal, giro, sigillanti, schiume, sconto">
-  	<title>Soudal - come partecipare</title>
+  	<title>Soudal - stato partecipazioni</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   	<!-- Custom CSS -->
@@ -23,6 +23,7 @@
 
 	<header class="container-fluid page">
 		<nav class="container navbar navbar-expand-lg navbar-dark pt-4">
+		<span class="bentornato solodesktop">Bentornato: <b>Nome Cognome</b></span>
 			<div class="d-flex flex-grow-1">
 				<button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas"><span class="navbar-toggler-icon dark"></span></button>
 				<a class="navbar-brand d-none d-lg-inline-block" href="index.html"><img class="shadow" src="img/logo.jpg" alt="logo"></a> 
@@ -77,34 +78,44 @@
 
 		<h1 class="sign title text-center page">Iniziativa<br class="solomobile"> <span class="white ml-5">da Giro a Giro</span></h1>
 		<section class="page text-center">
-			<h2 class="display-4 font-weight-bold mb-5">Come partecipare:</h2>
-			<ul class="lead text-left">
-				<li>Dal 21/06/2021 al 31/10/2021 acquista almeno 60,00 euro di sigillanti o di schiume Soudal, coinvolti nell’iniziativa, con unico Documento d’Acquisto “parlante”.</li>
-				<li>Entro il 31/10/2021 registrati sul sito e, previa verifica, potrai ottenere n. 1 carnet da 30,00 euro. Ogni carnet sarà composto da 3 buoni sconto da 10,00 euro.</li>
-				<li>Ogni buono potrà essere utilizzato a fronte di una spesa minima di 20,00 euro per il riacquisto degli stessi prodotti acquistati e nello stesso punto vendita. I buoni sconto, dello stesso carnet, sono cumulabili per il riacquisto degli stessi prodotti.</li>
-				<li>Ottenuto il carnet, avrai ulteriori 90 giorni per caricare Documenti d’Acquisto relativi a spese di sigillanti o schiume successive, effettuate sempre presso lo stesso punto vendita.</li>
-				<li>Previa verifica, potrai ottenere n. 1 buono sconto ogni 100,00 euro di spesa effettuata, da spendere per gli stessi prodotti acquistati e nello stesso punto vendita, su una spesa minima di 20,00 euro. I buoni sconto sono cumulabili per il riacquisto degli stessi prodotti.</li>
-			</ul>
-			<a class="btn btn-primary btn-lg text-center" href="partecipa.html" role="button">PARTECIPA</a>
-		</section>
-		
-		<section>
-			<h3 class="text-center red">Scopri le nostre gamme prodotto</h3>
-			<div class="line solodesktop"></div>
-			<div class="row">
-				<div class="col-lg-4 col-md-12 text-center">
-					<img src="img/gamma1.jpg">
-					<p class="lead text-center">Gamma Building</p>
-				</div>
-				<div class="col-lg-4 col-md-12 text-center">
-					<img src="img/gamma2.jpg">
-					<p class="lead text-center">Gamma DIY</p>
-				</div>
-				<div class="col-lg-4 col-md-12 text-center">
-					<img src="img/gamma3.jpg">
-					<p class="lead text-center">Gamma Profili</p>
-				</div>
+			<h2 class="display-4 font-weight-bold mb-5">Stato partecipazioni:</h2>
+			<div class="table-responsive">
+				<table class="table table-hover">
+				  <thead>
+				    <tr>
+				      <th scope="col">Codice documento</th>
+				      <th scope="col">Data documento</th>
+				      <th scope="col">Data caricamento</th>
+				      <th scope="col">Stato</th>
+				      <th scope="col">Azioni</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">001</th>
+				      <td>25/05/2021</td>
+				      <td>01/06/2021</td>
+				      <td>Convalidato</td>
+				      <td><a href="#">Modifica</a> <span class="solodesktop">/</span> <a href="#">Elimina</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">002</th>
+				      <td>25/05/2021</td>
+				      <td>01/06/2021</td>
+				      <td class="red">Non Convalidato</td>
+				      <td><a href="#">Modifica</a> <span class="solodesktop">/</span> <a href="#">Elimina</a></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">003</th>
+				      <td>25/05/2021</td>
+				      <td>01/06/2021</td>
+				      <td>Convalidato</td>
+				      <td><a href="#">Modifica</a> <span class="solodesktop">/</span> <a href="#">Elimina</a></td>
+				    </tr>
+				  </tbody>
+				</table>
 			</div>
+			<a class="btn btn-primary btn-lg text-center" href="carica.html" role="button">Carica Nuovo Documento</a>
 		</section>
 		
 	</main>

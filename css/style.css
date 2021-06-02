@@ -158,3 +158,10 @@ form .card{
     right: 24px;
     color: #FFF;
 }
+table a{
+	color: #000;
+	text-decoration: underline;
+}
+table a:hover{
+	color: #c20c19;
+}
