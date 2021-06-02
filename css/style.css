@@ -152,3 +152,9 @@ form .card{
     margin-top: -38px;
     height: 38px;
 }
+.bentornato{
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: #FFF;
+}
